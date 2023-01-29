@@ -5,12 +5,6 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    homePage: './src/homePage.js',
-    buttons: './src/buttons.js',
-    menuPage: './src/menuPage.js',
-    contactPage: './src/contactPage.js',
-    utils: './src/utils.js',
-
   },
   plugins: [
     new HtmlWebpackPlugin({
