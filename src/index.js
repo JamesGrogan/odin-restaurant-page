@@ -21,6 +21,8 @@ Object.values(buttons).forEach(button => {
     buttonContainer.appendChild(button);
     button.addEventListener("click", (e) => {
         removeAllChildNodes(contentContainer);
+        Object.values(buttons).forEach(button => button.classList.remove('clickedButton'));
+        e.target.setAttribute('class', 'clickedButton');
         switch (e.target) {
             case homeButton:
                 contentContainer.appendChild(homePage());

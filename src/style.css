@@ -29,3 +29,7 @@ body {
 .flex-child {
     text-align: center;
 }
+
+.clickedButton {
+    background-color: rgb(110, 209, 255);
+}
