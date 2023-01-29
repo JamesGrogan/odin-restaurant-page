@@ -1,4 +1,31 @@
+body {
+    height: 100vh;
+}
+
 .pastaImg {
+    display: block;
     width: 50%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contentContainer {
+    height: 90%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+.flex-child {
+    text-align: center;
 }
