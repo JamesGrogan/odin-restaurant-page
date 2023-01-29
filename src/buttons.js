@@ -2,6 +2,7 @@ export default function makeButtons() {
     const homeButton = document.createElement('button');
     homeButton.innerText = "Home";
     homeButton.setAttribute('id', 'homeButton');
+    homeButton.setAttribute('class', 'clickedButton');
     buttonContainer.appendChild(homeButton);
 
     const menuButton = document.createElement('button');
